@@ -1,0 +1,37 @@
+.container {
+  width: 80%;
+  overflow-x: auto;
+  overflow-y: visible;
+  margin-bottom: 20px;
+}
+
+.container > select {
+  height: 30px;
+  width: 120px;
+  background-color: white;
+  margin-right: 5px
+}
+
+.container > input {
+  height: 30px;
+  width: 180px;
+  background-color: white;
+  margin-right: 5px;
+  border: none;
+}
+
+.container > button {
+  height: 30px;
+  width: 60px;
+  background-color: #486a75;
+  border: none;
+  color: white;
+}
+
+.container > button:hover {
+  cursor: pointer;
+}
+
+.container > select:focus, .container > input:focus{
+  outline: none;
+}
